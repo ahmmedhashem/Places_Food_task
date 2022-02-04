@@ -1,0 +1,104 @@
+.footer{
+  background: #100024;
+  padding: 80px 0;
+  overflow: hidden;
+  position: relative;
+  .shapetwo{
+      position: absolute;
+      width: 82%;
+      height: 155%;
+      left: -675px;
+      bottom: 0;
+      background: radial-gradient(50% 50% at 50% 50%, rgba(248, 58, 205, 0.5) 0%, rgba(26, 25, 29, 0) 100%);
+  }
+  .content{
+      h3{
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 296.69%;
+          color: #FFFFFF;
+      }
+      ul{
+          li{
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: 300;
+              font-size: 17px;
+              line-height: 50px;
+              color: #FFFFFF;
+              a{
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: 300;
+                  font-size: 17px;
+                  line-height: 50px;
+                  color: #FFFFFF;
+                  text-decoration: none;
+              }
+          }
+      }
+      .down{
+          margin-top: 85px;
+      }
+  }
+  .news_letter{
+      width: 100%;
+      background: rgba(128, 28, 117, 0.2);
+      margin-top: 32px;
+      padding: 20px 25px;
+      h3{
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 310.69%;
+          color: #FFFFFF;
+          letter-spacing: 2px;
+      }
+      .send_email{
+          position: relative;
+          margin-bottom: 30px;
+          input{
+              background-color: unset;
+              border: none;
+              border-bottom: 1px solid #FFF;
+              line-height: 40px;
+              width: 100%;
+          }
+          button{
+              position: absolute;
+              top: 10px;
+              right: 0px;
+              background-color: unset;
+              border: none;
+          }
+      }
+      .shape{
+          position: relative;
+          top: 12px;
+          float: left;
+          margin-right: 10px;
+          svg.aaa{
+              position: absolute;
+              top: 0;
+              left: 0;
+          }
+          svg.bbb{
+              position: absolute;
+              top: 7px;
+              left: 6px;
+          }
+      }
+      p{
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 17px;
+          line-height: 50px;
+          color: #FFFFFF;
+          margin-left: 32px;
+      }
+  }
+}

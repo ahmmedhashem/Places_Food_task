@@ -1,0 +1,25 @@
+<div class="blog text-center">
+  <div class="container">
+      <div class="heading">
+          <h3>FEATURED PLACES TO EAT</h3>
+          <hr>
+      </div>
+      <div class="slider-cont">
+          <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide *ngFor="let blog of blogs">
+              <div class="card" style="width: 18rem;">
+                <a href="#">
+                  <img src="./assets/img/placeholder.png" alt="map">
+                </a>
+                <img src="{{ blog.img }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3>{{blog.title}}</h3>
+                  <hr>
+                  <p>{{ blog.disc }}</p>
+                </div>
+              </div>
+            </ng-template>
+          </owl-carousel-o>
+      </div>
+  </div>
+</div>
